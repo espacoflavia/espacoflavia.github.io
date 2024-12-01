@@ -1,5 +1,5 @@
 header {
-  background-color: purple;
+  background-color: #a59398;
   height: 100px;
 }
 a {
@@ -9,10 +9,10 @@ a {
   width: 100%;
 }
 nav {
-  background-color: rgb(160, 17, 160);
+  background-color: #b29fa4;
 }
 nav > a {
-  border: 1px dashed rgb(160, 17, 160);
+  border: 1px dashed #b29fa4;
 }
 nav > a:hover {
   border: 1px dashed white;
