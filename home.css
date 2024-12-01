@@ -1,0 +1,241 @@
+header {
+  background-color: purple;
+  height: 100px;
+}
+a {
+  color: white;
+}
+#cabeça {
+  width: 100%;
+}
+nav {
+  background-color: rgb(160, 17, 160);
+}
+nav > a {
+  border: 1px dashed rgb(160, 17, 160);
+}
+nav > a:hover {
+  border: 1px dashed white;
+  color: white;
+}
+#cntt {
+  margin-left: 85%;
+  margin-top: -8%;
+}
+#whatsapp {
+  margin-right: 12%;
+}
+#logo {
+  width: 13%;
+  margin-top: -49px;
+}
+.iconscntt {
+  width: 15%;
+}
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.linha > div {
+  flex: 1 1 calc(20% - 10px);
+  margin: 5px;
+  min-width: 120px;
+  max-width: 180px;
+}
+.insta{
+  background-color: rgb(195, 43, 226);
+}
+.insta:hover{
+  background-color: rgb(174, 43, 226);
+}
+.btn{
+  border-radius: 7px;
+}
+.loja{
+  width: 60%;
+  margin-left: 15%;
+}
+@media (max-width: 1023px) {
+  #logo {
+    margin-top: -10px;
+  }
+  .iconscntt {
+    width: 20%;
+  }
+}
+@media (min-width: 770px) and (max-width: 900px) {
+  .iconscntt {
+    width: 30%;
+    margin-top: -20px;
+  }
+  #logo {
+    width: 16%;
+    margin-top: -15px;
+  }
+}
+@media (min-width: 650px) and (max-width: 770px) {
+  .iconscntt {
+    width: 35%;
+    margin-top: -70px;
+  }
+  #logo {
+    width: 20%;
+    margin-top: -15px;
+  }
+}
+@media (min-width: 600px) and (max-width: 650px) {
+  .iconscntt {
+    width: 37%;
+    margin-top: -80px;
+  }
+  #logo {
+    width: 24%;
+    margin-top: -25px;
+  }
+}
+@media (min-width: 550px) and (max-width: 600px) {
+  .iconscntt {
+    width: 39%;
+    margin-top: -80px;
+  }
+  #logo {
+    width: 27%;
+    margin-top: -30px;
+  }
+}
+@media (min-width: 500px) and (max-width: 550px) {
+  .iconscntt {
+    width: 27%;
+    margin-top: -80px;
+  }
+  #logo {
+    width: 29%;
+    margin-top: -30px;
+  }
+  #cntt {
+    margin-left: 83%;
+  }
+}
+@media (min-width: 450px) and (max-width: 500px) {
+  .iconscntt {
+    width: 30%;
+    margin-top: -90px;
+  }
+  #logo {
+    width: 33%;
+    margin-top: -30px;
+  }
+  #cntt {
+    margin-left: 81%;
+  }
+}
+@media (min-width: 400px) and (max-width: 450px) {
+  .iconscntt {
+    width: 32%;
+    margin-top: -90px;
+  }
+  #logo {
+    width: 35%;
+    margin-top: -27px;
+  }
+  #cntt {
+    margin-left: 81%;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+  .iconscntt {
+    width: 34%;
+    margin-top: -90px;
+  }
+  #logo {
+    width: 37%;
+    margin-top: -20px;
+  }
+  #cntt {
+    margin-left: 81%;
+  }
+}
+@media (min-width: 290px) and (max-width: 350px) {
+  .iconscntt {
+    width: 38%;
+    margin-top: -87px;
+  }
+  #logo {
+    width: 40%;
+    margin-top: -15px;
+  }
+  #cntt {
+    margin-left: 81%;
+  }
+  nav > a {
+    font-size: small;
+  }
+}
+@media (min-width: 260px) and (max-width: 290px) {
+  .iconscntt {
+    width: 34%;
+    margin-top: -110px;
+  }
+  #logo {
+    width: 45%;
+    margin-top: -16px;
+  }
+  #cntt {
+    margin-left: 72%;
+  }
+  nav > a {
+    font-size: small;
+  }
+}
+@media (min-width: 230px) and (max-width: 260px) {
+  .iconscntt {
+    width: 38%;
+    margin-top: -110px;
+  }
+  #logo {
+    width: 52%;
+    margin-top: -16px;
+  }
+  #cntt {
+    margin-left: 72%;
+  }
+  nav > a {
+    font-size: small;
+  }
+}
+@media (min-width: 180px) and (max-width: 230px) {
+  .iconscntt {
+    width: 34%;
+    margin-top: -115px;
+  }
+  #logo {
+    width: 58%;
+    margin-top: -16px;
+  }
+  #cntt {
+    margin-left: 72%;
+  }
+  nav > a {
+    font-size: small;
+  }
+}
+@media (max-width: 230px) {
+  .iconscntt {
+    width: 38%;
+    margin-top: -125px;
+  }
+  #logo {
+    width: 66%;
+    margin-top: -26px;
+  }
+  #cntt {
+    margin-left: 72%;
+  }
+  nav > a {
+    font-size: small;
+  }
+}
