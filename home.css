@@ -59,6 +59,12 @@ nav > a:hover {
 .insta:hover{
   background-color: rgb(174, 43, 226);
 }
+.btn btn-success{
+  background-color: rgb(190, 238, 224);
+}
+.btn btn-success:hover{
+  background-color: rgb(190, 238, 224);
+}
 .btn{
   border-radius: 7px;
 }
