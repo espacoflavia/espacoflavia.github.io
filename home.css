@@ -1,5 +1,5 @@
 header {
-  background-color: #a59398;
+  background-color: #eedae5;
   height: 100px;
 }
 a {
@@ -9,10 +9,10 @@ a {
   width: 100%;
 }
 nav {
-  background-color: #b29fa4;
+  background-color: #eedae5;
 }
 nav > a {
-  border: 1px dashed #b29fa4;
+  border: 1px dashed #eedae5;
 }
 nav > a:hover {
   border: 1px dashed white;
